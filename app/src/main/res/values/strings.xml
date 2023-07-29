@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">SampleRadioGroup</string>
+
+    <!-- 帝國製糖廠 B -->
+    <string name="question1_title">臺中市政府於去年12月25日成立了一個新的機關，該機關名稱是？</string>
+    <string name="question1_option_a">A.數位資訊局</string>
+    <string name="question1_option_b">B.數位治理局</string>
+    <string name="question1_option_c">C.數位科技局</string>
+    <string name="question1_option_d">D.數位發展局</string>
+
+    <!-- 火車 C -->
+    <string name="question2_title">台中通APP提供市民朋友整合式市政服務，近期新增的功能是？</string>
+    <string name="question2_option_a">A.導航</string>
+    <string name="question2_option_b">B.打卡</string>
+    <string name="question2_option_c">C.票選</string>
+    <string name="question2_option_d">D.集點集章</string>
+
+    <!-- 高塔 C -->
+    <string name="question3_title">加入台中通會員即可獲得一張專屬市民卡，請問卡片名稱是？</string>
+    <string name="question3_option_a">A.敬老愛心卡</string>
+    <string name="question3_option_b">B.交通卡</string>
+    <string name="question3_option_c">C.數位虛擬市民卡</string>
+    <string name="question3_option_d">D.遊戲王卡</string>
+
+    <!-- 台中糖廠印象/火車 C -->
+    <string name="question4_title">帝國糖廠原先的小火車是要用來載運？</string>
+    <string name="question4_option_a">A.腳踏車</string>
+    <string name="question4_option_b">B.寵物</string>
+    <string name="question4_option_c">C.甘蔗</string>
+
+
+
+</resources>

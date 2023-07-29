@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/item_question_bg"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:src="@drawable/detailkey" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question1_title"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/question_title_size" />
+                </LinearLayout>
+
+                <com.gms.sampleradiogroup.view.CusRadioGroup
+                    android:id="@+id/radio_group_question1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.gms.sampleradiogroup.view.CusRadioButton
+                        android:id="@+id/radio_1a"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/item_options_bg"
+                        android:button="@null"
+                        android:checked="false"
+                        android:padding="10dp"
+                        android:text="@string/question1_option_a"
+                        android:textColor="@color/item_options_txt_color"
+                        android:textSize="@dimen/question_option_size"
+                        app:isCorrectAnswer="false" />
+
+                    <com.gms.sampleradiogroup.view.CusRadioButton
+                        android:id="@+id/radio_1b"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/item_options_bg"
+                        android:button="@null"
+                        android:checked="false"
+                        android:padding="10dp"
+                        android:text="@string/question1_option_b"
+                        android:textColor="@color/item_options_txt_color"
+                        android:textSize="@dimen/question_option_size"
+                        app:isCorrectAnswer="true" />
+
+                    <com.gms.sampleradiogroup.view.CusRadioButton
+                        android:id="@+id/radio_1c"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/item_options_bg"
+                        android:button="@null"
+                        android:checked="false"
+                        android:padding="10dp"
+                        android:text="@string/question1_option_c"
+                        android:textColor="@color/item_options_txt_color"
+                        android:textSize="@dimen/question_option_size"
+                        app:isCorrectAnswer="false" />
+
+                    <com.gms.sampleradiogroup.view.CusRadioButton
+                        android:id="@+id/radio_1d"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/item_options_bg"
+                        android:button="@null"
+                        android:checked="false"
+                        android:padding="10dp"
+                        android:text="@string/question1_option_d"
+                        android:textColor="@color/item_options_txt_color"
+                        android:textSize="@dimen/question_option_size"
+                        app:isCorrectAnswer="false" />
+
+                </com.gms.sampleradiogroup.view.CusRadioGroup>
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <LinearLayout
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/item_question_bg"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:src="@drawable/detailkey" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question2_title"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/question_title_size" />
+                </LinearLayout>
+
+                <com.gms.sampleradiogroup.view.CusRadioGroup
+                    android:id="@+id/radio_group_question2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.gms.sampleradiogroup.view.CusRadioButton
+                        android:id="@+id/radio_2a"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/item_options_bg"
+                        android:button="@null"
+                        android:checked="false"
+                        android:padding="10dp"
+                        android:text="@string/question2_option_a"
+                        android:textColor="@color/item_options_txt_color"
+                        android:textSize="@dimen/question_option_size"
+                        app:isCorrectAnswer="false" />
+
+                    <com.gms.sampleradiogroup.view.CusRadioButton
+                        android:id="@+id/radio_2b"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/item_options_bg"
+                        android:button="@null"
+                        android:checked="false"
+                        android:padding="10dp"
+                        android:text="@string/question2_option_b"
+                        android:textColor="@color/item_options_txt_color"
+                        android:textSize="@dimen/question_option_size"
+                        app:isCorrectAnswer="false" />
+
+                    <com.gms.sampleradiogroup.view.CusRadioButton
+                        android:id="@+id/radio_2c"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/item_options_bg"
+                        android:button="@null"
+                        android:checked="false"
+                        android:padding="10dp"
+                        android:text="@string/question2_option_c"
+                        android:textColor="@color/item_options_txt_color"
+                        android:textSize="@dimen/question_option_size"
+                        app:isCorrectAnswer="true" />
+
+                    <com.gms.sampleradiogroup.view.CusRadioButton
+                        android:id="@+id/radio_2d"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/item_options_bg"
+                        android:button="@null"
+                        android:checked="false"
+                        android:padding="10dp"
+                        android:text="@string/question2_option_d"
+                        android:textColor="@color/item_options_txt_color"
+                        android:textSize="@dimen/question_option_size"
+                        app:isCorrectAnswer="false" />
+
+                </com.gms.sampleradiogroup.view.CusRadioGroup>
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <LinearLayout
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/item_question_bg"
+
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:src="@drawable/detailkey" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question3_title"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/question_title_size" />
+                </LinearLayout>
+
+                <com.gms.sampleradiogroup.view.CusRadioGroup
+                    android:id="@+id/radio_group_question3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.gms.sampleradiogroup.view.CusRadioButton
+                        android:id="@+id/radio_3a"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/item_options_bg"
+                        android:button="@null"
+                        android:checked="false"
+                        android:padding="10dp"
+                        android:text="@string/question3_option_a"
+                        android:textColor="@color/item_options_txt_color"
+                        android:textSize="@dimen/question_option_size"
+                        app:isCorrectAnswer="false" />
+
+                    <com.gms.sampleradiogroup.view.CusRadioButton
+                        android:id="@+id/radio_3b"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/item_options_bg"
+                        android:button="@null"
+                        android:checked="false"
+                        android:padding="10dp"
+                        android:text="@string/question3_option_b"
+                        android:textColor="@color/item_options_txt_color"
+                        android:textSize="@dimen/question_option_size"
+                        app:isCorrectAnswer="false" />
+
+                    <com.gms.sampleradiogroup.view.CusRadioButton
+                        android:id="@+id/radio_3c"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/item_options_bg"
+                        android:button="@null"
+                        android:checked="false"
+                        android:padding="10dp"
+                        android:text="@string/question3_option_c"
+                        android:textColor="@color/item_options_txt_color"
+                        android:textSize="@dimen/question_option_size"
+                        app:isCorrectAnswer="true" />
+
+                    <com.gms.sampleradiogroup.view.CusRadioButton
+                        android:id="@+id/radio_3d"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/item_options_bg"
+                        android:button="@null"
+                        android:checked="false"
+                        android:padding="10dp"
+                        android:text="@string/question3_option_d"
+                        android:textColor="@color/item_options_txt_color"
+                        android:textSize="@dimen/question_option_size"
+                        app:isCorrectAnswer="false" />
+
+                </com.gms.sampleradiogroup.view.CusRadioGroup>
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <LinearLayout
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/item_question_bg"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:src="@drawable/detailkey" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question4_title"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/question_title_size" />
+                </LinearLayout>
+
+                <com.gms.sampleradiogroup.view.CusRadioGroup
+                    android:id="@+id/radio_group_question4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.gms.sampleradiogroup.view.CusRadioButton
+                        android:id="@+id/radio_4a"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/item_options_bg"
+                        android:button="@null"
+                        android:checked="false"
+                        android:padding="10dp"
+                        android:text="@string/question4_option_a"
+                        android:textColor="@color/item_options_txt_color"
+                        android:textSize="@dimen/question_option_size"
+                        app:isCorrectAnswer="false" />
+
+                    <com.gms.sampleradiogroup.view.CusRadioButton
+                        android:id="@+id/radio_4b"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/item_options_bg"
+                        android:button="@null"
+                        android:checked="false"
+                        android:padding="10dp"
+                        android:text="@string/question4_option_b"
+                        android:textColor="@color/item_options_txt_color"
+                        android:textSize="@dimen/question_option_size"
+                        app:isCorrectAnswer="false" />
+
+                    <com.gms.sampleradiogroup.view.CusRadioButton
+                        android:id="@+id/radio_4c"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/item_options_bg"
+                        android:button="@null"
+                        android:checked="false"
+                        android:padding="10dp"
+                        android:text="@string/question4_option_c"
+                        android:textColor="@color/item_options_txt_color"
+                        android:textSize="@dimen/question_option_size"
+                        app:isCorrectAnswer="true" />
+
+                </com.gms.sampleradiogroup.view.CusRadioGroup>
+
+            </LinearLayout>
+
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="重設"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

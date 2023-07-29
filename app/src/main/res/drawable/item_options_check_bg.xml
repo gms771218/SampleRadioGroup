@@ -1,0 +1,13 @@
+<layer-list
+xmlns:android="http://schemas.android.com/apk/res/android">
+<item >
+    <shape
+        android:shape="rectangle" >
+        <corners
+            android:radius="8dp" />
+        <solid
+            android:color="#EA902F" />
+    </shape>
+</item>
+<!--<item android:drawable="@drawable/detailyes" android:width="25dp" android:height="25dp" android:gravity="right|center" android:right="5dp"/>-->
+</layer-list>
